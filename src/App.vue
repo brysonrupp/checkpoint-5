@@ -4,9 +4,10 @@
   </header>
   <main>
     <router-view />
+    <!-- adds go here -->
   </main>
-   <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
+  <footer class="bg-dark text-light">
+    cool posts
   </footer>
 </template>
 
@@ -27,7 +28,7 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
-:root{
+:root {
   --main-height: calc(100vh - 32px - 64px);
 }
 
